@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+      }
+    </style>
+    <title>Smiley Face Part I</title>
+  </head>
+  <body>
+    <!-- height / 2 - strokeWidth / 2 -->
+    <svg width="960" height="500">
+      <circle
+        cx="480"
+        cy="250"
+        r="245"
+        fill="yellow"
+        stroke="black"
+        stroke-width="10"
+      ></circle>
+      <!-- centerX - eyeOffsetX -->
+      <circle cx="350" cy="180" r="50"></circle>
+      <!-- centerX + eyeOffsetX -->
+      <circle cx="600" cy="180" r="50"></circle>
+    </svg>
+  </body>
+</html>
