@@ -10,4 +10,5 @@ video.
 rsync -a --exclude node_modules --exclude build ./p2-smiley-face/ ./p3-smiley-face/
 rsync -a --exclude node_modules --exclude build ./p3-smiley-face/ ./p4-smiley-face/
 rsync -a --exclude node_modules --exclude build ./p4-smiley-face/ ./p5-smiley-face/
+rsync -a --exclude node_modules --exclude build ./p5-smiley-face/ ./p6-smiley-face/
 ```
